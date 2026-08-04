@@ -2,6 +2,6 @@
 
 **Latest Version:** `0.732.0.7321040` (version-ff6341faef444107)
 
-## Recent API Changes
+## API Changes
 
-* _No API schema changes recorded in this build._
+* _No API changes in this build._
