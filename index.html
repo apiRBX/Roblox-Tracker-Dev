@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox API Tracker - Build 0.492.0.4920394</title>
+  <style>
+    :root {
+      --bg-color: #0d1117;
+      --card-bg: #161b22;
+      --text-color: #c9d1d9;
+      --accent-color: #58a6ff;
+      --code-bg: #21262d;
+      --border-color: #30363d;
+      --header-bg: #161b22;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 2rem 1rem;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 960px;
+    }
+    header {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    h1 {
+      margin: 0 0 1.25rem 0;
+      font-size: 1.75rem;
+      color: #f0f6fc;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      font-size: 0.875rem;
+    }
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .meta-label {
+      color: #8b949e;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+    .meta-value {
+      font-family: monospace;
+      color: #f0f6fc;
+    }
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1.25rem 0;
+      padding: 0.85rem 1.25rem;
+      background: var(--card-bg);
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      font-size: 0.875rem;
+      align-items: center;
+    }
+    .nav-links strong {
+      color: #8b949e;
+    }
+    .changelog-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.75rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .changelog-card h2 {
+      margin-top: 0;
+      color: #f0f6fc;
+      font-size: 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.75rem;
+    }
+    ul.changelog-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    ul.changelog-list li {
+      padding: 0.35rem 0;
+      font-size: 0.925rem;
+      line-height: 1.6;
+      transition: background 0.15s ease;
+    }
+    ul.changelog-list li:hover {
+      background-color: rgba(110, 118, 129, 0.1);
+      border-radius: 4px;
+    }
+    code {
+      background-color: var(--code-bg);
+      padding: 0.2rem 0.4rem;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, SF Pro Text, Menlo, Consolas, monospace;
+      font-size: 0.85em;
+      color: #79c0ff;
+      border: 1px solid rgba(240, 246, 252, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Roblox API Tracker (Development)</h1>
+      <div class="meta-grid">
+        <div class="meta-item">
+          <span class="meta-label">Client Version</span>
+          <span class="meta-value"><code>0.492.0.4920394</code></span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Version Hash</span>
+          <span class="meta-value"><code>version-76deca015ad84ad6</code></span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Official Release Notes</span>
+          <a href="https://create.roblox.com/docs/release-notes/release-notes-492" target="_blank" rel="noopener">Release Notes 492 ↗</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="changelog-card">
+      <h2>API Changelog</h2>
+      <ul class="changelog-list">
+        <li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/AppUpdateService" target="_blank" rel="noopener"><code>AppUpdateService</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/AppUpdateService#DisableDUARAndOpenSurvey" target="_blank" rel="noopener"><code>DisableDUARAndOpenSurvey</code></a></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService" target="_blank" rel="noopener"><code>AvatarEditorService</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#NoPromptDeleteOutfit" target="_blank" rel="noopener"><code>NoPromptDeleteOutfit</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#PerformDeleteOutfit" target="_blank" rel="noopener"><code>PerformDeleteOutfit</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#PromptDeleteOutfit" target="_blank" rel="noopener"><code>PromptDeleteOutfit</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#SignalDeleteOutfitFailed" target="_blank" rel="noopener"><code>SignalDeleteOutfitFailed</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#SignalDeleteOutfitPermissionDenied" target="_blank" rel="noopener"><code>SignalDeleteOutfitPermissionDenied</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add ⚡ <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#OpenPromptDeleteOutfit" target="_blank" rel="noopener"><code>OpenPromptDeleteOutfit</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add ⚡ <a href="https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#PromptDeleteOutfitCompleted" target="_blank" rel="noopener"><code>PromptDeleteOutfitCompleted</code></a></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/CommandService" target="_blank" rel="noopener"><code>CommandService</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Change Parameters of 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/CommandService#RegisterCommand" target="_blank" rel="noopener"><code>RegisterCommand</code></a></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/File" target="_blank" rel="noopener"><code>File</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Remove 📘 <code>FileName</code></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Remove 📘 <code>FileSize</code></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Remove 🔮 <code>GetFileContentsBinary</code></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/WorldRoot" target="_blank" rel="noopener"><code>WorldRoot</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Change Parameters of 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/WorldRoot#GetPartsInPart" target="_blank" rel="noopener"><code>GetPartsInPart</code></a></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/PhysicsService" target="_blank" rel="noopener"><code>PhysicsService</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Change Parameters of 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/PhysicsService#CollisionGroupContainsPart" target="_blank" rel="noopener"><code>CollisionGroupContainsPart</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Change Parameters of 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/PhysicsService#SetPartCollisionGroup" target="_blank" rel="noopener"><code>SetPartCollisionGroup</code></a></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/Plugin" target="_blank" rel="noopener"><code>Plugin</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Change Parameters of 🔮 <a href="https://create.roblox.com/docs/reference/engine/classes/Plugin#OpenScript" target="_blank" rel="noopener"><code>OpenScript</code></a></li>
+<li class="root-item" >Add 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/ChannelSelectorSoundEffect" target="_blank" rel="noopener"><code>ChannelSelectorSoundEffect</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Add 📘 <a href="https://create.roblox.com/docs/reference/engine/classes/ChannelSelectorSoundEffect#Channel" target="_blank" rel="noopener"><code>Channel</code></a></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/Studio" target="_blank" rel="noopener"><code>Studio</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Remove 📘 <code>DEPRECATED_DisableAccuratePlaySolo</code></li>
+<li class="root-item" >Update 🔷 <a href="https://create.roblox.com/docs/reference/engine/classes/StudioService" target="_blank" rel="noopener"><code>StudioService</code></a></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Remove 🔮 <code>PromptImportLocalAsset</code></li>
+<li class="nested-item" style="margin-left: 28px; border-left: 2px solid #262b3d; padding-left: 10px;">Remove 🔮 <code>PromptImportLocalAssets</code></li>
+      </ul>
+    </main>
+  </div>
+</body>
+</html>
