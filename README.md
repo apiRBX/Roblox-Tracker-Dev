@@ -4,7 +4,7 @@
 | :--- | :--- |
 | **Version** | `0.489.0.4890336` |
 | **Version Hash** | `version-103a34b6ca094f9a` |
-| **Dump Timestamp** | `2026-08-04 05:27:45 UTC` |
+| **Dump Timestamp** | `2026-08-04 05:30:32 UTC` |
 | **Official Release Notes** | [Release Notes 489](https://create.roblox.com/docs/release-notes/release-notes-489) |
 
 ---
