@@ -2,9 +2,9 @@
 
 | Metadata | Details |
 | :--- | :--- |
-| **Version** | `0.489.0.4890336` |
-| **Version Hash** | `version-103a34b6ca094f9a` |
-| **Dump Timestamp** | `2026-08-04 05:41:31 UTC` |
+| **Version** | `0.489.1.4890338` |
+| **Version Hash** | `version-426b06e9062e4ed3` |
+| **Dump Timestamp** | `2026-08-04 05:43:27 UTC` |
 | **Official Release Notes** | [Release Notes 489](https://create.roblox.com/docs/release-notes/release-notes-489) |
 
 ---
