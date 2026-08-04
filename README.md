@@ -1,23 +1,95 @@
-# Roblox API Tracker
+# Roblox API Tracker (Development)
 
 | Metadata | Details |
 | :--- | :--- |
-| **Version** | `0.489.1.4890338` |
-| **Version Hash** | `version-426b06e9062e4ed3` |
-| **Dump Timestamp** | `2026-08-04 05:43:27 UTC` |
-| **Official Release Notes** | [Release Notes 489](https://create.roblox.com/docs/release-notes/release-notes-489) |
+| **Version** | `0.490.0.4900359` |
+| **Version Hash** | `version-7fcd52338832455e` |
+| **Official Release Notes** | [Release Notes 490](https://create.roblox.com/docs/release-notes/release-notes-490) |
 
 ---
 
-## Quick Navigation Links
-* [Engine Classes](https://create.roblox.com/docs/reference/engine/classes)
-* [Engine Datatypes](https://create.roblox.com/docs/reference/engine/datatypes)
-* [Engine Enums](https://create.roblox.com/docs/reference/engine/enums)
-* [Engine Globals](https://create.roblox.com/docs/reference/engine/globals)
-* [Engine Libraries](https://create.roblox.com/docs/reference/engine/libraries)
+## API Changelog
 
----
-
-## Detailed API Changes
-
-* _No API changes detected in this build._
+* Update 🔷 [`CommandInstance`](https://create.roblox.com/docs/reference/engine/classes/CommandInstance)
+  * Remove 📘 `Group`
+* Update 🔷 [`CommandService`](https://create.roblox.com/docs/reference/engine/classes/CommandService)
+  * Change Parameters of 🔮 [`RegisterCommand`](https://create.roblox.com/docs/reference/engine/classes/CommandService#RegisterCommand)
+* Add 🔷 [`LinearVelocityConstraint`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint)
+  * Add 📘 [`LineDirection`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#LineDirection)
+  * Add 📘 [`LineVelocity`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#LineVelocity)
+  * Add 📘 [`MaxForce`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#MaxForce)
+  * Add 📘 [`PlaneVelocity`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#PlaneVelocity)
+  * Add 📘 [`PrimaryTangentAxis`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#PrimaryTangentAxis)
+  * Add 📘 [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#RelativeTo)
+  * Add 📘 [`SecondaryTangentAxis`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#SecondaryTangentAxis)
+  * Add 📘 [`VectorVelocity`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#VectorVelocity)
+  * Add 📘 [`VelocityConstraintMode`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocityConstraint#VelocityConstraintMode)
+* Update 🔷 [`ImageButton`](https://create.roblox.com/docs/reference/engine/classes/ImageButton)
+  * Add 📘 [`ResampleMode`](https://create.roblox.com/docs/reference/engine/classes/ImageButton#ResampleMode)
+* Update 🔷 [`ImageLabel`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel)
+  * Add 📘 [`ResampleMode`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#ResampleMode)
+* Update 🔷 [`BillboardGui`](https://create.roblox.com/docs/reference/engine/classes/BillboardGui)
+  * Add 🔮 [`GetScreenSpaceBounds`](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#GetScreenSpaceBounds)
+* Add 🔷 [`ImporterBaseSettings`](https://create.roblox.com/docs/reference/engine/classes/ImporterBaseSettings)
+  * Add 📘 [`Id`](https://create.roblox.com/docs/reference/engine/classes/ImporterBaseSettings#Id)
+  * Add 📘 [`ImportName`](https://create.roblox.com/docs/reference/engine/classes/ImporterBaseSettings#ImportName)
+  * Add 📘 [`ShouldImport`](https://create.roblox.com/docs/reference/engine/classes/ImporterBaseSettings#ShouldImport)
+* Add 🔷 [`ImporterGroupSettings`](https://create.roblox.com/docs/reference/engine/classes/ImporterGroupSettings)
+* Add 🔷 [`ImporterMeshSettings`](https://create.roblox.com/docs/reference/engine/classes/ImporterMeshSettings)
+  * Add 📘 [`DoubleSided`](https://create.roblox.com/docs/reference/engine/classes/ImporterMeshSettings#DoubleSided)
+* Add 🔷 [`ImporterRootSettings`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings)
+  * Add 📘 [`FileDimensions`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings#FileDimensions)
+  * Add 📘 [`FlattenAll`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings#FlattenAll)
+  * Add 📘 [`PolygonCount`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings#PolygonCount)
+  * Add 📘 [`ScaleUnit`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings#ScaleUnit)
+  * Add 📘 [`WorldForward`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings#WorldForward)
+  * Add 📘 [`WorldUp`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings#WorldUp)
+  * Add 📘 [`ZeroOrigin`](https://create.roblox.com/docs/reference/engine/classes/ImporterRootSettings#ZeroOrigin)
+* Add 🔷 [`ImporterTextureSettings`](https://create.roblox.com/docs/reference/engine/classes/ImporterTextureSettings)
+* Update 🔷 [`RbxAnalyticsService`](https://create.roblox.com/docs/reference/engine/classes/RbxAnalyticsService)
+  * Add 🔮 [`AddGlobalPointsTag`](https://create.roblox.com/docs/reference/engine/classes/RbxAnalyticsService#AddGlobalPointsTag)
+  * Add 🔮 [`RemoveGlobalPointsTag`](https://create.roblox.com/docs/reference/engine/classes/RbxAnalyticsService#RemoveGlobalPointsTag)
+* Add 🔷 [`VoiceChatService`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService)
+  * Add 📘 [`VoiceChatState`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#VoiceChatState)
+  * Add 🔮 [`GetAndClearCallFailureMessage`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetAndClearCallFailureMessage)
+  * Add 🔮 [`GetAudioProcessingSettings`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetAudioProcessingSettings)
+  * Add 🔮 [`GetGroupId`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetGroupId)
+  * Add 🔮 [`GetMicDevices`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetMicDevices)
+  * Add 🔮 [`GetParticipants`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetParticipants)
+  * Add 🔮 [`GetSpeakerDevices`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetSpeakerDevices)
+  * Add 🔮 [`GetVoiceChatApiVersion`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetVoiceChatApiVersion)
+  * Add 🔮 [`GetVoiceChatAvailable`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#GetVoiceChatAvailable)
+  * Add 🔮 [`IsPublishPaused`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#IsPublishPaused)
+  * Add 🔮 [`IsSubscribePaused`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#IsSubscribePaused)
+  * Add 🔮 [`JoinByGroupId`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#JoinByGroupId)
+  * Add 🔮 [`JoinByGroupIdToken`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#JoinByGroupIdToken)
+  * Add 🔮 [`Leave`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#Leave)
+  * Add 🔮 [`PublishPause`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#PublishPause)
+  * Add 🔮 [`SetMicDevice`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#SetMicDevice)
+  * Add 🔮 [`SetSpeakerDevice`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#SetSpeakerDevice)
+  * Add 🔮 [`SubscribePause`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#SubscribePause)
+  * Add ⚡ [`ParticipantsStateChanged`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#ParticipantsStateChanged)
+  * Add ⚡ [`PlayerMicActivitySignalChange`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#PlayerMicActivitySignalChange)
+  * Add ⚡ [`StateChanged`](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService#StateChanged)
+* Add 📑 [`MeshScaleUnit`](https://create.roblox.com/docs/reference/engine/enums/MeshScaleUnit)
+  * Add 🏷️ `Stud` (0)
+  * Add 🏷️ `Meter` (1)
+  * Add 🏷️ `CM` (2)
+  * Add 🏷️ `MM` (3)
+  * Add 🏷️ `Foot` (4)
+  * Add 🏷️ `Inch` (5)
+* Add 📑 [`ResamplerMode`](https://create.roblox.com/docs/reference/engine/enums/ResamplerMode)
+  * Add 🏷️ `Default` (0)
+  * Add 🏷️ `Pixelated` (1)
+* Add 📑 [`VelocityConstraintMode`](https://create.roblox.com/docs/reference/engine/enums/VelocityConstraintMode)
+  * Add 🏷️ `Line` (0)
+  * Add 🏷️ `Plane` (1)
+  * Add 🏷️ `Vector` (2)
+* Add 📑 [`VoiceChatState`](https://create.roblox.com/docs/reference/engine/enums/VoiceChatState)
+  * Add 🏷️ `Idle` (0)
+  * Add 🏷️ `Joining` (1)
+  * Add 🏷️ `JoiningRetry` (2)
+  * Add 🏷️ `Joined` (3)
+  * Add 🏷️ `Leaving` (4)
+  * Add 🏷️ `Ended` (5)
+  * Add 🏷️ `Failed` (6)
