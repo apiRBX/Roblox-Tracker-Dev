@@ -2,41 +2,30 @@
 
 | Metadata | Details |
 | :--- | :--- |
-| **Version** | `0.492.0.4920394` |
-| **Version Hash** | `version-76deca015ad84ad6` |
-| **Official Release Notes** | [Release Notes 492](https://create.roblox.com/docs/release-notes/release-notes-492) |
+| **Version** | `0.493.0.4930373` |
+| **Version Hash** | `version-04c0166b90104f00` |
+| **Official Release Notes** | [Release Notes 493](https://create.roblox.com/docs/release-notes/release-notes-493) |
 
 ---
 
 ## API Changelog
 
-* Update 🔷 [`AppUpdateService`](https://create.roblox.com/docs/reference/engine/classes/AppUpdateService)
-  * Add 🔮 [`DisableDUARAndOpenSurvey`](https://create.roblox.com/docs/reference/engine/classes/AppUpdateService#DisableDUARAndOpenSurvey)
-* Update 🔷 [`AvatarEditorService`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService)
-  * Add 🔮 [`NoPromptDeleteOutfit`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#NoPromptDeleteOutfit)
-  * Add 🔮 [`PerformDeleteOutfit`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#PerformDeleteOutfit)
-  * Add 🔮 [`PromptDeleteOutfit`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#PromptDeleteOutfit)
-  * Add 🔮 [`SignalDeleteOutfitFailed`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#SignalDeleteOutfitFailed)
-  * Add 🔮 [`SignalDeleteOutfitPermissionDenied`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#SignalDeleteOutfitPermissionDenied)
-  * Add ⚡ [`OpenPromptDeleteOutfit`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#OpenPromptDeleteOutfit)
-  * Add ⚡ [`PromptDeleteOutfitCompleted`](https://create.roblox.com/docs/reference/engine/classes/AvatarEditorService#PromptDeleteOutfitCompleted)
-* Update 🔷 [`CommandService`](https://create.roblox.com/docs/reference/engine/classes/CommandService)
-  * Change Parameters of 🔮 [`RegisterCommand`](https://create.roblox.com/docs/reference/engine/classes/CommandService#RegisterCommand)
-* Update 🔷 [`File`](https://create.roblox.com/docs/reference/engine/classes/File)
-  * Remove 📘 `FileName`
-  * Remove 📘 `FileSize`
-  * Remove 🔮 `GetFileContentsBinary`
-* Update 🔷 [`WorldRoot`](https://create.roblox.com/docs/reference/engine/classes/WorldRoot)
-  * Change Parameters of 🔮 [`GetPartsInPart`](https://create.roblox.com/docs/reference/engine/classes/WorldRoot#GetPartsInPart)
-* Update 🔷 [`PhysicsService`](https://create.roblox.com/docs/reference/engine/classes/PhysicsService)
-  * Change Parameters of 🔮 [`CollisionGroupContainsPart`](https://create.roblox.com/docs/reference/engine/classes/PhysicsService#CollisionGroupContainsPart)
-  * Change Parameters of 🔮 [`SetPartCollisionGroup`](https://create.roblox.com/docs/reference/engine/classes/PhysicsService#SetPartCollisionGroup)
-* Update 🔷 [`Plugin`](https://create.roblox.com/docs/reference/engine/classes/Plugin)
-  * Change Parameters of 🔮 [`OpenScript`](https://create.roblox.com/docs/reference/engine/classes/Plugin#OpenScript)
-* Add 🔷 [`ChannelSelectorSoundEffect`](https://create.roblox.com/docs/reference/engine/classes/ChannelSelectorSoundEffect)
-  * Add 📘 [`Channel`](https://create.roblox.com/docs/reference/engine/classes/ChannelSelectorSoundEffect#Channel)
-* Update 🔷 [`Studio`](https://create.roblox.com/docs/reference/engine/classes/Studio)
-  * Remove 📘 `DEPRECATED_DisableAccuratePlaySolo`
-* Update 🔷 [`StudioService`](https://create.roblox.com/docs/reference/engine/classes/StudioService)
-  * Remove 🔮 `PromptImportLocalAsset`
-  * Remove 🔮 `PromptImportLocalAssets`
+* Update 🔷 [`AssetImportService`](https://create.roblox.com/docs/reference/engine/classes/AssetImportService) [🏷️ NotCreatable] [🏷️ Service] [🏷️ NotReplicated]
+  * Add 🔮 [`UploadCurrentMesh`](https://create.roblox.com/docs/reference/engine/classes/AssetImportService#UploadCurrentMesh)() -> void [🔒 RobloxScriptSecurity]
+* Update 🔷 [`GuiService`](https://create.roblox.com/docs/reference/engine/classes/GuiService) [🏷️ NotCreatable] [🏷️ Service] [🏷️ NotReplicated]
+  * Add 📘 [`TouchControlsEnabled`](https://create.roblox.com/docs/reference/engine/classes/GuiService#TouchControlsEnabled): bool
+* Update 🔷 [`PathfindingModifier`](https://create.roblox.com/docs/reference/engine/classes/PathfindingModifier)
+  * Add 📘 [`PassThrough`](https://create.roblox.com/docs/reference/engine/classes/PathfindingModifier#PassThrough): bool
+* Update 🔷 [`PlayerEmulatorService`](https://create.roblox.com/docs/reference/engine/classes/PlayerEmulatorService) [🏷️ NotCreatable] [🏷️ Service]
+  * Add 📘 [`CustomPoliciesEnabled`](https://create.roblox.com/docs/reference/engine/classes/PlayerEmulatorService#CustomPoliciesEnabled): bool [🔒 RobloxScriptSecurity] [🏷️ Hidden]
+* Update 🔷 [`Plugin`](https://create.roblox.com/docs/reference/engine/classes/Plugin) [🏷️ NotCreatable]
+  * Add 🔮 [`SetReady`](https://create.roblox.com/docs/reference/engine/classes/Plugin#SetReady)() -> void [🔒 RobloxScriptSecurity]
+  * Add ⚡ [`Ready`](https://create.roblox.com/docs/reference/engine/classes/Plugin#Ready) [🔒 RobloxScriptSecurity]
+* Update 🔷 [`Selection`](https://create.roblox.com/docs/reference/engine/classes/Selection) [🏷️ NotCreatable] [🏷️ Service]
+  * Add 🔮 [`ClearTerrainSelectionHack`](https://create.roblox.com/docs/reference/engine/classes/Selection#ClearTerrainSelectionHack)() -> void [🔒 RobloxScriptSecurity]
+  * Add 🔮 [`SetTerrainSelectionHack`](https://create.roblox.com/docs/reference/engine/classes/Selection#SetTerrainSelectionHack)(center: Vector3, size: Vector3) -> void [🔒 RobloxScriptSecurity]
+* Update 🔷 [`Studio`](https://create.roblox.com/docs/reference/engine/classes/Studio) [🏷️ NotCreatable] [🏷️ Service] [🏷️ NotReplicated]
+  * Add 📘 [`EnableOnTypeAutocomplete`](https://create.roblox.com/docs/reference/engine/classes/Studio#EnableOnTypeAutocomplete): bool [🔒 RobloxScriptSecurity] [🏷️ Hidden] [🏷️ NotReplicated]
+  * Add 📘 [`Set Pivot of Imported Parts`](https://create.roblox.com/docs/reference/engine/classes/Studio#Set Pivot of Imported Parts): bool
+* Update 🔷 [`StudioService`](https://create.roblox.com/docs/reference/engine/classes/StudioService) [🏷️ NotCreatable] [🏷️ Service] [🏷️ NotReplicated]
+  * Remove 🔮 `BaseURLHasChineseHost`
